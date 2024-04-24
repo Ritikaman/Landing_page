@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #343a40; /* Dark background color */
+  }
+  
+  .navbar-brand img {
+    height: 4rem;
+    margin-top: 0.5rem;
+  }
+  
+  .nav-link {
+    color: #ffffff; /* Light text color */
+  }
+  
+  .nav-link:hover {
+    color: #ffffff; /* Hover text color */
+  }
+  
+  /* Responsive Navbar Styles */
+  @media (max-width: 991.98px) { /* Medium devices (tablets, 768px and up) */
+    .navbar-expand-lg .navbar-toggler {
+      display: block; /* Show the toggle button */
+    }
+  
+    .navbar-collapse {
+      display: none; /* Hide the Navbar links */
+    }
+  
+    .navbar-collapse.show {
+      display: block; /* Show the Navbar links when toggled */
+    }
+  
+    .nav-item {
+      text-align: center; /* Center align the Navbar items */
+      margin-bottom: 10px; /* Add some space between Navbar items */
+    }
+  }

@@ -1,0 +1,28 @@
+.main-container {
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h6, h5 {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    h6, h5 {
+        font-size: 0.8rem;
+    }
+}
